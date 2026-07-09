@@ -6,7 +6,6 @@
     "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots",
     "deploy": "LANG=C.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll build && wrangler deploy",
     "preview": "LANG=C.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll build && wrangler dev"
-}
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
