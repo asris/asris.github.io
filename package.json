@@ -3,9 +3,7 @@
     "lint:prettier": "prettier . --check",
     "lint:style-contract": "node test/style_contract.js",
     "test:visual": "playwright test --config test/visual/playwright.config.js",
-    "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots",
-    "deploy": "LANG=C.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll build && wrangler deploy",
-    "preview": "LANG=C.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll build && wrangler dev"
+    "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
