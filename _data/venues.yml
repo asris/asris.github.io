@@ -1,0 +1,3 @@
+# Optional venue-name metadata (custom link/color per journal or conference).
+# Keys are the exact `journal =` string from papers.bib (case-sensitive).
+# Left empty intentionally — extend as needed.

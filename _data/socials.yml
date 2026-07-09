@@ -1,0 +1,18 @@
+# Social and professional links for Dr. Anup K. Srivastava
+# Icons render on the About/landing page and (if enabled) the navbar.
+# Documentation: https://github.com/george-gca/jekyll-socials
+# ------------------------------------------------------------------
+
+email: anup.iiserm@gmail.com
+
+# Academic identifiers
+orcid_id: 0000-0001-9805-1217
+scholar_userid: t-uU7CkAAAAJ
+
+# Code / professional
+github_username: asris
+linkedin_username: anupksri
+
+# NOTE: cv_pdf removed per user request (CV icon no longer shown in header).
+# NOTE: rss_icon removed per user request (RSS/XML icon no longer shown in header).
+# NOTE: phone / whatsapp / wechat intentionally omitted (site keeps email + city only).

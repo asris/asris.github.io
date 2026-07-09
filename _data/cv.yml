@@ -1,0 +1,249 @@
+# -----------------------------------------------------------------------------
+# Structured CV data — renders on /cv/ via al-folio's jsonresume layout
+# All content is drawn from the Master Profile provided by Dr. Srivastava.
+# Nothing here is invented.
+# -----------------------------------------------------------------------------
+
+cv:
+  name: Anup K. Srivastava, Ph.D.
+  label: Translational Neuroscientist · PhRMA Research Postdoctoral Scientist
+  email: anup.iiserm@gmail.com
+  location: Washington, DC · USA
+  image: "" # TODO: replace with a real headshot filename (e.g. prof_pic.jpg) once uploaded
+
+  summary: >
+    Translational neuroscientist with over a decade of experience bridging molecular biomarker
+    assay development with mechanistic disease biology across Parkinson's disease, Alzheimer's
+    disease, and pediatric epilepsy. First- or co-first-author on 14 peer-reviewed research
+    articles spanning α-synuclein proteostasis, amyloid-β aggregation, and translational
+    nanotherapeutics. Currently expanding into iPSC-derived organoid models, HD-MEA
+    electrophysiology, and 2PP-fabricated implantable microdevices for localized brain delivery.
+
+  social_networks:
+    - network: GitHub
+      username: asris
+    - network: LinkedIn
+      username: anupksri
+    - network: ORCID
+      username: 0000-0001-9805-1217
+    - network: GoogleScholar
+      username: t-uU7CkAAAAJ
+
+  # Address block intentionally minimal — email + city only per privacy preference.
+  address:
+    city: Washington, DC
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: Institute of Nano Science and Technology (INST) & Indian Institute of Science Education and Research (IISER), Mohali
+        location: Mohali, India
+        area: Nanoscience & Nanotechnology
+        studyType: Ph.D.
+        start_date: 2014
+        end_date: 2020
+        highlights:
+          - "Dissertation: Hybrid Nanostructures-Mediated Biosensing and Epigenetically Controlled Neurotherapeutic Application in Neurodegenerative Disease."
+          - "Supervisor: Dr. Surajit Karmakar."
+
+      - institution: Banaras Hindu University
+        location: Varanasi, India
+        area: Biotechnology
+        studyType: M.Sc.
+        start_date: 2011
+        end_date: 2013
+        score: "81.29%"
+
+      - institution: Deen Dayal Upadhyay Gorakhpur University
+        location: Gorakhpur, India
+        area: Industrial Microbiology, Zoology, Chemistry
+        studyType: B.Sc.
+        start_date: 2006
+        end_date: 2009
+        score: "66.44%"
+
+    Experience:
+      - company: Center for Neuroscience Research, Children's National Research Institute
+        position: PhRMA Research Postdoctoral Scientist
+        location: Washington, DC, USA
+        start_date: 2021-02
+        end_date: Present
+        summary: >
+          Designed and executed translational assays in human- and rodent-derived systems to
+          quantify neurological disease-linked biomarkers, with an active research program
+          extending into pediatric epilepsy circuit biology and implantable brain-delivery
+          devices.
+        highlights:
+          - Developed ELISA and multiplex immunoassays for protein quantification in neuronal lysates and biofluids.
+          - Performed 3D neural culture assays, brain-slice biomarker analyses, and multi-parametric fluorescence imaging.
+          - Analyzed mitochondrial dysfunction, inflammatory pathway activation, and proteostasis failure via RT-qPCR, Western blot / JESS capillary electrophoresis, and caspase assays.
+          - Integrated MATLAB and Python workflows to model biomarker trajectories and quantify therapeutic responses.
+          - Optimized assay sensitivity and reproducibility across multi-site collaborations.
+          - Mentored trainees in assay design, execution, QC, and data interpretation.
+          - Maintained rigorous electronic laboratory notebook (ELN) documentation and data-integrity compliance.
+          - "Currently developing HD-MEA electrophysiology pipelines (MaxOne PLM/PSM) for acute brain slice and cerebellar-organoid functional readouts."
+          - "Active research program in interneuron progenitor transplantation (tuberous sclerosis complex model), CRISPRa iPSC transfection, in utero electroporation (Rheb focal cortical dysplasia type II model), and rabies-virus monosynaptic circuit tracing."
+          - "Co-developing the Biocage — a needle-sized porous implantable microdevice fabricated by two-photon polymerization (Nanoscribe) with PEGDA hydrogel precursors — for localized neural stem cell and drug delivery."
+
+      - company: Institute of Nano Science and Technology (INST)
+        position: Senior Research Fellow (SRF)
+        location: Mohali, India
+        start_date: 2016
+        end_date: 2020
+        summary: >
+          Led mechanistic studies on α-synuclein phosphorylation (pS129), ubiquitin-dependent
+          degradation, BMI-1 / PRC2 dysregulation, and inflammatory signaling in Parkinson's
+          disease models. Developed melatonin- and polydopamine-based nanostructure
+          therapeutics linking biomarker changes to therapeutic exposure.
+        highlights:
+          - Designed quantitative immunoassays and Western / JESS workflows for proteasomal regulation, epigenetic-complex activity, and toxic-aggregate clearance.
+          - Established SH-SY5Y and C6 glioma models with multi-color flow cytometry, mitochondrial-potential (JC-1) and protein-kinetics readouts.
+          - Quantified amyloid-β aggregation, nanoparticle–protein interactions, and corona-mediated changes in Alzheimer's disease biomarker detection.
+
+      - company: Institute of Nano Science and Technology (INST)
+        position: Junior Research Fellow (JRF)
+        location: Mohali, India
+        start_date: 2014
+        end_date: 2016
+        highlights:
+          - Supported molecular biomarker assays and protein / gene expression profiling in neurodegeneration pathways.
+          - Executed fluorescence-based biosensing, spectral quantification, and molecular kinetics assays.
+
+    Awards:
+      - title: PhRMA Foundation Postdoctoral Fellowship
+        awarder: Pharmaceutical Research and Manufacturers of America (PhRMA) Foundation
+        date: 2021
+        summary: Competitive postdoctoral research fellowship supporting translational neuroscience at the Center for Neuroscience Research, Children's National Research Institute.
+
+      - title: AES Fellow Award
+        awarder: American Epilepsy Society
+        date: 2024
+        summary: Recognition award, American Epilepsy Society Annual Meeting, Los Angeles.
+
+      - title: International Travel Award
+        awarder: Council of Scientific & Industrial Research (CSIR), India
+        date: 2019
+        summary: Podium presentation at the 63rd Annual Biophysical Society Meeting, Baltimore.
+
+      - title: International Travel Award
+        awarder: Department of Biotechnology (DBT), India
+        date: 2019
+        summary: Podium presentation at the 63rd Annual Biophysical Society Meeting, Baltimore.
+
+      - title: Best Research Poster
+        awarder: Indian Society of Nanomedicine, AIIMS New Delhi
+        date: 2018
+        summary: NANOBIOTECK-2018 conference.
+
+      - title: Junior Research Fellowship
+        awarder: Department of Biotechnology (DBT), India
+        date: 2014
+
+      - title: Junior Research Fellowship
+        awarder: Indian Council of Medical Research (ICMR), India
+        date: 2013
+
+      - title: Junior Research Fellowship
+        awarder: Council of Scientific & Industrial Research (CSIR), India
+        date: 2012
+
+      - title: Summer Research Fellowship
+        awarder: Indian Academy of Sciences
+        date: 2012
+
+    Publications:
+      - title: Disrupted neurogenesis from basal intermediate precursor cells alters the postnatal neocortex in the TcMAC21 mouse model of Down syndrome
+        authors:
+          - Atak, Z.
+          - Srivastava, A. K.
+          - Gandhi, S.
+          - Park, E.
+          - Williams, J.
+          - Torii, M.
+          - Haydar, T.
+        publisher: The Journal of Neuroscience
+        releaseDate: 2025
+        summary: "Journal of Neuroscience 45(34). Impact factor ≈ 6.9."
+
+      - title: Neuronal BMI-1 mediates ubiquitination and proteasomal degradation of alpha-synuclein in Parkinson's disease
+        authors:
+          - Srivastava, A. K.
+          - Choudhury, S. R.
+          - Karmakar, S.
+        publisher: Neuropharmacology
+        releaseDate: 2021
+        url: https://doi.org/10.1016/j.neuropharm.2020.108372
+        summary: "Neuropharmacology, 194, 108372. Impact factor 4.7."
+
+      - title: Near-infrared responsive dopamine/melatonin-derived nanocomposites abrogating in-situ amyloid beta nucleation, propagation, and ameliorating neuronal function
+        authors:
+          - Srivastava, A. K.
+          - Choudhury, S. R.
+          - Karmakar, S.
+        publisher: ACS Applied Materials & Interfaces
+        releaseDate: 2020
+        summary: "ACS Applied Materials & Interfaces, 12(5), 5658–5670. Impact factor 9.5."
+
+      - title: Curcumin-tethered lanthanum carbonate nanospheres and protein corona enable fluorescence-based detection of amyloid-β aggregates
+        authors:
+          - Srivastava, A. K.
+          - Dev, A.
+          - Choudhury, S. R.
+          - Karmakar, S.
+        publisher: Sensors and Actuators B - Chemical
+        releaseDate: 2018
+        summary: "Sensors and Actuators B - Chemical, 262, 1–9. Impact factor 8.4."
+
+      - title: Melatonin / polydopamine nanostructures for collective neuroprotection in Parkinson's disease therapy
+        authors:
+          - Srivastava, A. K.
+          - Choudhury, S. R.
+          - Karmakar, S.
+        publisher: Biomaterials Science
+        releaseDate: 2019
+        url: https://doi.org/10.1039/C9BM01602C
+        summary: "Impact factor 6.6."
+
+    Skills:
+      - name: Immunoassays & Protein Quantification
+        keywords: "ELISA, Meso Scale Discovery (MSD), Western blot, JESS capillary electrophoresis, SDS-PAGE, immunoprecipitation, protein–nanoparticle interaction assays, PTM quantification (pS129 α-synuclein, ubiquitination, H2AK119ub), BCA protein assay, ECL chemiluminescence detection, densitometry (ImageJ/Fiji)"
+
+      - name: Cellular & Human-Derived Models
+        keywords: "SH-SY5Y, C6 glioma, iPSC-derived neurons, iPSC-derived GABAergic precursor cells (MGE/CGE), 3D neural spheroids and organoids (cerebral, cerebellar), organotypic brain-slice cultures, primary neuronal lysates, biofluids, human postmortem brain tissue, mitochondrial membrane potential (JC-1), caspase activation, oxidative stress, neuroinflammation, mitophagy assays"
+
+      - name: Genomic & Proteomic Readouts
+        keywords: "RT-qPCR (inflammatory genes, SNCA pathway, PRC2/BMI-1/EZH2 panel), multiplex cytokine profiling, proteasomal activity assays, Aβ aggregation kinetics, protein coronas, nanoparticle-interactome characterization"
+
+      - name: Flow Cytometry
+        keywords: "Multi-color surface and intracellular labeling, caspase-3, mitochondrial potential, oxidative stress markers, aggregate-associated fluorescence signatures"
+
+      - name: Electrophysiology & MEA (ongoing capability)
+        keywords: "HD-MEA recording (MaxOne, MaxWell Biosystems), 26,400-electrode PLM chips, acute brain slice and organoid MEA, spike firing-rate mapping, ISI and amplitude analysis, bicuculline challenge assays, MaxLab Live / MaxLive analysis, EEG / video-EEG seizure recording, Racine scale scoring"
+
+      - name: Biomaterials & Device Fabrication (ongoing capability)
+        keywords: "Two-photon polymerization (2PP) 3D printing (Nanoscribe), PEGDA hydrogel precursor formulation, Biocage implantable microdevice design and fabrication, 3D-printed porous scaffolds for organoid growth, biocompatibility and biodegradability testing"
+
+      - name: Molecular Biology & Gene Tools (ongoing capability)
+        keywords: "CRISPRa plasmid construct design, iPSC transfection, in utero electroporation (IUE), rabies-virus monosynaptic tracing, viral delivery, neural stem cell engineering (TRAIL-secreting NSCs)"
+
+      - name: In Vivo & Surgical (ongoing capability)
+        keywords: "Acute brain slice preparation (vibratome coronal sections), survival surgery for EEG implantation, mouse breeding and genotyping (TcMAC21 Down syndrome model, Rheb FCD-II model), IACUC protocol compliance, animal behavior and Racine seizure scoring"
+
+      - name: Computational & Statistical Analysis
+        keywords: "MATLAB, Python, GraphPad Prism, OriginLab Pro, ImageJ / Fiji, high-content imaging quantification, PK/PD-aligned sampling, fold-change modeling, ANOVA, Bonferroni and Tukey's post-hoc, dose–response modeling, custom Python MEA visualization scripts, kernel density estimation, spike-train analysis"
+
+      - name: Translational & Biomarker
+        keywords: "α-synuclein phosphorylation (pS129), neuroinflammation markers (IL-1β, NF-κB, IL-6), mitochondrial-injury biomarkers (ΔΨm loss, Akt / PI3K signaling), Aβ aggregation and fibrillation detection, quantitative PD and AD models aligned to in vivo pathology, assay sensitivity and reproducibility optimization, multi-site collaboration, ELN documentation, data-integrity compliance"
+
+    Interests:
+      - name: Translational Neurodegeneration
+        keywords: "α-synuclein proteostasis, amyloid-β aggregation, mitochondrial dysfunction, neuroinflammation, epigenetic regulation of PD (BMI-1 / PRC2 / EZH2)"
+
+      - name: Pediatric Epilepsy & Neural Circuit Biology
+        keywords: "Dravet syndrome, tuberous sclerosis complex, focal cortical dysplasia type II, GABAergic interneuron biology, HD-MEA electrophysiology"
+
+      - name: Biomaterials & Implantable Neural Devices
+        keywords: "2PP 3D printing (Nanoscribe), PEGDA hydrogels, Biocage, localized brain delivery, neural stem cell therapy"
+
+      - name: iPSC-Derived Organoid Models
+        keywords: "Cerebral and cerebellar organoids, GABAergic differentiation, 3D scaffold-supported growth, organoid MEA readouts"

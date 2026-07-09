@@ -1,0 +1,6 @@
+# Optional coauthor metadata (custom link/color for known collaborators).
+# Add entries under the coauthor's family name in lowercase, e.g.
+#   "karmakar":
+#     - firstname: ["Surajit", "S."]
+#       url: https://iisermohali.ac.in/
+# Left empty intentionally — extend as needed.
