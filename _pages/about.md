@@ -3,7 +3,7 @@ layout: about
 title: Home
 permalink: /
 subtitle: >
-  Research Postdoctoral Scientist
+  Affiliation:
   <a href="https://research.childrensnational.org/" target="_blank" rel="noopener">Center for Neuroscience Research, Children's National Research Institute</a>, Washington, DC.
 
 profile:
