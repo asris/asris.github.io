@@ -12,7 +12,7 @@ description: Tools and resources for neuroscience image analysis.
 ## PIONEER
 
 <p align="center">
-<img src="/assets/img/pioneer_pipeline_grayscale.jpeg" width="900">
+<img src="/assets/img/pioneer_pipeline_grayscale.png" width="900">
 </p>
 
 ### Pipeline for Integrated Orientation and Neuromapping with Enhanced Exploration and Registration
