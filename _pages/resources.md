@@ -17,7 +17,7 @@ description:
 
 PIONEER is a semi-automated workflow developed to streamline the analysis of mouse brain histological sections. It integrates multiple open-source image processing tools into a single guided pipeline that reduces manual effort while maintaining flexibility and reproducibility.
 
-The platform is designed for researchers performing quantitative neuroanatomical analysis, including atlas registration, cell detection, regional quantification, and visualization from coronal brain sections.
+The platform is designed for researchers performing quantitative neuroanatomical analysis, including atlas registration, cell detection, regional quantification, and visualization from coronal/sagittal brain sections.
 
 ---
 
@@ -27,7 +27,7 @@ The analysis pipeline consists of the following steps:
 
 1. **Image Acquisition**
    - Import brightfield or fluorescence images (TIFF, PNG, JPEG).
-   - Supports serial mouse coronal brain sections.
+   - Supports serial mouse coronal/sagittal brain sections.
 
 2. **Atlas Registration**
    - Align histological sections to a reference mouse brain atlas.
