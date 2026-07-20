@@ -7,13 +7,11 @@ nav_order: 5
 description: 
 ---
 
-## PIONEER
+## Pipeline for Integrated Orientation and Neuromapping with Enhanced Exploration and Registration (PIONEER)
 
 <p align="center">
 <img src="/assets/img/pioneer_pipeline_grayscale.png" width="900">
 </p>
-
-### Pipeline for Integrated Orientation and Neuromapping with Enhanced Exploration and Registration
 
 PIONEER is a semi-automated workflow developed to streamline the analysis of mouse brain histological sections. It integrates multiple open-source image processing tools into a single guided pipeline that reduces manual effort while maintaining flexibility and reproducibility.
 
