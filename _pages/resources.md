@@ -4,10 +4,8 @@ title: Resources
 permalink: /resources/
 nav: true
 nav_order: 5
-description: Tools and resources for neuroscience image analysis.
+description: 
 ---
-
-# Resources
 
 ## PIONEER
 
